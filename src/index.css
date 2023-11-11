@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family:'Times New Roman', Times, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(34,79,112);
+  background: #FBF9BF;
+
+  align-items: center;
+}
+
+code {
+  font-family: 'Times New Roman', Times, serif,
+    monospace;
+}
+/* App.css */
+
+/* Overall Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgb(255, 187, 187);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.frame {
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin: 0;
+}
+
+h2 {
+  color: #666;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Body Styles */
+.body {
+  padding: 20px;
+}
+
+.about h3,
+.skills h3,
+.projects h3 {
+  color: #141cb8;
+  font-size: 20px;
+  margin: 20px 0 10px;
+}
+
+p {
+  color: #000000;
+  line-height: 1.4;
+}
+
+/* Skills Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* Projects Styles */
+.project {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #643c78;
+  border: 1px solid #f0dede;
+  border-radius: 5px;
+}
+
+.project h3 {
+  color: #141cb8;
+  font-size: 18px;
+  margin: 0;
+}
+
+.project p {
+  color: #fff;
+}
+
+/* Hyperlinks */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
